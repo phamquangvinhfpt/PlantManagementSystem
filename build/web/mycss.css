@@ -1,0 +1,84 @@
+*{ 
+    box-sizing:border-box;
+  }
+  html{ font-family: arial;
+        font-size: 12px; 
+  }
+  header,section,footer,nav,ul { float: left;width: 100%;}
+  header, nav, footer{ height: 100px;
+                       background-color: #e1f5eb;
+  }
+  section { height: auto;}
+  header li{width:10%;  
+            list-style-type: none;
+            text-align: center;
+            float:left;
+          }
+  a    {    color: #006666;
+            font-size: 1.5em;
+              text-decoration: none;
+       }
+            
+ header li:last-child { width:30%; float:right;}
+ #logo { width: 100px; height: 100px; }
+ 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Thiết lập kiểu cho bảng sản phẩm */
+.producttable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Thiết lập kiểu cho các ô trong bảng sản phẩm */
+.producttable td {
+  border: 1px solid none;
+  padding: 20px;
+  color:#006666;
+  font-size: 16px;
+}
+
+.producttable tr:first-child {
+  background-color: #e1f5eb; /* Thiết lập màu nền cho ô đầu tiên của bảng */
+}
+
+/* Thiết lập kiểu cho hình ảnh sản phẩm */
+.plantimg {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+/* Thiết lập kiểu cho nút "add to your cart" */
+.shopping a {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+/* Thiết lập kiểu cho nút "add to your cart" khi rê chuột vào */
+.shopping a:hover {
+  background-color: #3e8e41;
+}
+.producttable {
+  margin: auto; /* Canh giữa theo chiều ngang và dọc */
+  text-align: center; /* Canh giữa theo chiều ngang */
+  vertical-align: middle; /* Canh giữa theo chiều dọc */
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e1f5eb;
+  padding: 20px 0;
+}
+
+section {
+  padding-bottom: 70px; /* Khoảng cách giữa phần nội dung và phần footer */
+}
